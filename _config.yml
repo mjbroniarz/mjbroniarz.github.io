@@ -30,7 +30,7 @@ twitter_username: mjbroniarz
 github_username:  mjbroniarz
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
