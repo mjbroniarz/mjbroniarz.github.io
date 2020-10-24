@@ -1,1 +1,0 @@
-# mjbroniarz.github.io
