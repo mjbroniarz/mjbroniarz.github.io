@@ -30,7 +30,7 @@ twitter_username: mjbroniarz
 github_username:  mjbroniarz
 
 # Build settings
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 
