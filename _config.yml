@@ -21,7 +21,7 @@
 title: 9EC4C12949A4F31474F299058CE2B22A
 email: mj@broniarz.net
 description: >- # this means to ignore newlines until "baseurl:"
-	"Technical notes to self"
+	Technical notes to self
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mjbroniarz
