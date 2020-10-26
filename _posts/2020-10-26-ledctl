@@ -1,0 +1,18 @@
+---
+layout: post
+author: mjbronarz
+title:  "Locating the broken disk using ledctl"
+date:   2020-10-26 21:58:21 +0200
+categories: blog zfs linux 
+---
+
+Hard disks fail sometimes. No big deal, you just replace it. But what if a hard disk fails in a ZFS array with few dozen disks? How can you locate the correct disk? There is a nifty tool for that called **ledctl**.
+
+
+Let's say the failed disk is /dev/sdh - all you need to do is just turn the correct led on with the following command: **ledctl locate=/dev/sdh**
+
+
+Then just replace the blinking disk, and you are good to go. 
+
+
+To turn the blinking off just use the command: **ledctl locate_off=/dev/sdh**
