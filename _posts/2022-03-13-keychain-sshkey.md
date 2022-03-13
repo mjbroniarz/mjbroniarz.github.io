@@ -23,4 +23,4 @@ Edit .ssh/config and add:
 Save the file and add the key to ssh-agent: ** ssh-add .ssh/id_ed25519 **
 
 
-Ant that's all folks.
+And that's all folks.
