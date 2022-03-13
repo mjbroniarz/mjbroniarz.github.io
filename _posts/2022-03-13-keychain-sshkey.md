@@ -13,9 +13,7 @@ Edit .ssh/config and add:
 
 ```
 Host *
-
     UseKeychain yes
-
     AddKeysToAgent yes
 ```
 
