@@ -11,16 +11,17 @@ If you want to store your ssh-key password in Apple Keychain do the following:
 
 Edit .ssh/config and add:
 
-**Host *
+```
+Host *
 
 
     UseKeychain yes
 
 
-    AddKeysToAgent yes**
+    AddKeysToAgent yes
+```
 
-
-Save the file and add the key to ssh-agent: ** ssh-add .ssh/id_ed25519 **
+Save the file and add the key to ssh-agent: **ssh-add .ssh/id_ed25519**
 
 
 And that's all folks.
